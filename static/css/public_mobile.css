@@ -1,0 +1,329 @@
+    /*主题颜色暂时设置为：#409EFF / 64, 158, 255*/
+    * {
+        box-sizing: content-box;
+        -moz-box-sizing: inherit;
+        -webkit-box-sizing: inherit;
+    }
+
+    a,
+    div,
+    input,
+    textarea {
+        outline: 0
+    }
+
+    body,
+    dd,
+    dl,
+    dt,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    html,
+    input,
+    li,
+    ol,
+    p,
+    textarea,
+    ul {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+    }
+
+    button {
+        font-family: inherit;
+    }
+
+    :focus {
+        outline: none;
+    }
+
+    input,
+    textarea {
+        -webkit-tap-highlight-color: transparent;
+        font-size: 3.7vw
+    }
+
+    input[type=password] {
+        ime-mode: disabled;
+    }
+
+    input::-webkit-input-placeholder {
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    input:-moz-placeholder {
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+
+    dl,
+    ol,
+    ul {
+        list-style: none
+    }
+
+    body,
+    html,
+    #app {
+        height: 100%;
+    }
+
+    body {
+        font-family: "PingFang SC", MicrosoftYaHei, "微软雅黑", "华文细黑", Arial, Helvetica, sans-serif !important;
+        background-color: #fff;
+        font-size: 4.2vw;
+        /*color: #777777;*/
+        color: #505050;
+        margin: 0 auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    .iconfont {
+        font-size: 4.2vw;
+    }
+
+    /* 重置element-ui */
+    .wc-popup-text {
+        max-height: 200px;
+        overflow: auto
+    }
+
+    /* 按钮区 */
+    .btn-style {
+        color: #fff;
+        background-color: #409EFF;
+        border: 0;
+    }
+
+    .btn-style:focus,
+    .btn-style:hover {
+        color: #fff;
+        background-color: rgba(64, 158, 255, .8);
+    }
+
+    .btn-style.is-disabled,
+    .btn-style.is-disabled:active,
+    .btn-style.is-disabled:focus,
+    .btn-style.is-disabled:hover {
+        background-color: rgba(64, 158, 255, .6);
+        border-color: rgba(64, 158, 255, .6);
+        color: #fff
+    }
+
+    .btn-all {
+        width: 100%;
+    }
+
+    .gradient-btn-style,.gradient-btn-style:hover,.gradient-btn-style:active,.gradient-btn-style:focus {
+        background-image: linear-gradient(0deg, #8e0000 0%, #cc1313 100%), linear-gradient(#f0f0f3, #f0f0f3);
+        background-blend-mode: normal, normal;
+        border: none;
+        color: #fff;
+    }
+
+    .gradient-btn-style:hover {
+        opacity: 0.7;
+    }
+
+    /* 添加按钮 */
+    .btn-upload {
+        width: 100%;
+        height: 100%;
+        line-height: 2;
+        background-color: #f4f4f5;
+        border: 0;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .btn-upload:hover {
+        background-color: #eee
+    }
+
+    .btn-upload img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .dialog-content {
+        display: flex;
+        flex-direction: column;
+        padding: 8vw 6.5vw;
+        box-sizing: border-box;
+        width: 90%;
+        max-height: 90% !important;
+    }
+
+    /* 图片swiper/预览 */
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-container .swiper-slide {
+
+        display: -ms-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .swiper-container .swiper-slide img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .swiper-pagination-bullet {
+        background-color: #c0c3c5;
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #409EFF;
+    }
+
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        text-align: right;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 36px;
+        height: 36px;
+        background: rgba(31, 45, 61, .11);
+        margin: 0;
+    }
+
+    .pic-view {
+        height: 500px;
+    }
+
+    /*通用样式*/
+    img {
+        border: none
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 700;
+    }
+
+    a {
+        color: #666;
+        text-decoration: none
+    }
+
+    /*.f12 {*/
+    /*font-size: 12px;*/
+    /*}*/
+    /*.f13 {*/
+    /*font-size: 13px;*/
+    /*}*/
+    /* body */
+    .wrap {
+        height: 100%;
+    }
+
+    .login-container {
+        margin: 0;
+    }
+
+    /*门户*/
+    .img16_9 {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%;
+    }
+
+    .img16_9 img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /*列表hover效果*/
+    .animated-item {
+        transition: All 0.4s ease-in-out;
+        -webkit-transition: All 0.4s ease-in-out;
+        -moz-transition: All 0.4s ease-in-out;
+        -o-transition: All 0.4s ease-in-out;
+        cursor: pointer;
+        /*border: 1px #e6e6e6 solid;*/
+    }
+
+    .animated-item:hover {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        background: #FFFFFF;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+    }
+
+    img[lazy=loading] {
+        object-fit: contain;
+    }
+
+    img[lazy=error] {
+        object-fit: contain;
+    }
+
+    .portal-echarts-tooltip-div {
+        max-width: 200px;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 5px 10px;
+    }
+
+    .ql-container {
+        height: auto;
+        font-size: 0.8125em;
+    }
+    .ql-editor {
+        line-height: 1.75 !important;
+    }
+
+    .page-container {
+        flex: 1;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .body-margin-hori {
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+
+    .el-message-box {
+        width: 90% !important;
+    }

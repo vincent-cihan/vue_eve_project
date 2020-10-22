@@ -1,0 +1,402 @@
+$themeColor = #409EFF
+$themeRedColor = #e60012
+$borderColor = #eaeaea
+$mobileThemeColor = #e53123
+$redColor = #c00303
+$headerTopHeight = 114px
+$bannerHeight = 711px
+
+@media screen and (min-width: 10px) {
+
+  .f14 {
+    font-size: 0.875em;
+  }
+
+  .f16 {
+    font-size: 1em;
+  }
+
+  .f18 {
+    font-size: 1.125em;
+  }
+
+  .f20 {
+    font-size: 1.25em;
+  }
+
+  .f22 {
+    font-size: 1.375em;
+  }
+
+  .f24 {
+    font-size: 1.5em;
+  }
+
+  .f28 {
+    font-size: 1.75em;
+  }
+
+  .fb {
+    font-weight: 700;
+    color: #333;
+  }
+
+  .fn {
+    font-weight: normal;
+  }
+
+  .c_gray {
+    color: #b3b3b3;
+  }
+
+  .c_red {
+    color: #F56C6C;
+  }
+
+  .c_blue {
+    color: #0473b3;
+  }
+
+  .c_green {
+    color: #2fcc85;
+  }
+
+  .b_gray,
+  .b_gray:hover,
+  .b_gray:focus {
+    background-color: #b3b3b3;
+    color: #fff
+  }
+
+  .b_red,
+  .b_red:hover,
+  .b_red:focus {
+    background-color: #F56C6C;
+    color: #fff
+  }
+
+  .b_blue,
+  .b_blue:hover,
+  .b_blue:focus {
+    background-color: #0473b3;
+    color: #fff
+  }
+
+  .b_green,
+  .b_green:hover,
+  .b_green:focus {
+    background-color: #2fcc85;
+    color: #fff
+  }
+
+  .t_l {
+    text-align: left;
+  }
+
+  .t_m {
+    text-align: center;
+  }
+
+  .t_r {
+    text-align: right;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .fr {
+    float: right;
+  }
+
+  .m10 {
+    margin-top: 10px;
+  }
+
+  .m20 {
+    margin-top: 20px;
+  }
+
+  .m30 {
+    margin-top: 30px;
+  }
+
+  .m40 {
+    margin-top: 40px;
+  }
+
+  .b10 {
+    margin-bottom: 10px
+  }
+
+  .b20 {
+    margin-bottom: 20px
+  }
+
+  .b30 {
+    margin-bottom: 30px;
+  }
+
+  .b40 {
+    margin-bottom: 40px;
+  }
+
+  .pd10 {
+    padding: 10px;
+  }
+
+  .ml10 {
+    margin-left: 10px;
+  }
+
+  .ml20 {
+    margin-left: 20px;
+  }
+
+  .ml30 {
+    margin-left: 30px;
+  }
+
+  .ml40 {
+    margin-left: 40px;
+  }
+
+  .mr10 {
+    margin-right: 10px;
+  }
+
+  .mr20 {
+    margin-right: 20px;
+  }
+
+  .mr30 {
+    margin-right: 30px;
+  }
+
+  .mr40 {
+    margin-right: 40px;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .pre-line {
+    white-space: pre-line;
+  }
+
+  .outline {
+    outline: none;
+  }
+
+  .no-data {
+    line-height: 40px;
+    text-align: center;
+    border: 0;
+  }
+
+  .box-size {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+  }
+
+  .el-collapse {
+    border: 0;
+  }
+
+  .menu-filter-list {
+    max-height: 400px;
+    overflow: auto;
+  }
+
+  .el-dropdown-menu__item {
+    line-height: 32px;
+    border-bottom: 0px solid #f2f2f2;
+  }
+
+  .pic-max {
+    max-width: 100%;
+    max-height: 100%
+  }
+
+  .dis-flex {
+    display: -ms-flex;
+    display: flex;
+  }
+
+  .flex {
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    flex-grow: 1;
+  }
+
+  .flex-middle {
+
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+  }
+
+  .flex-center {
+    justify-content: center;
+  }
+
+  .flex-between {
+    justify-content: space-between;
+  }
+
+  .flex-around {
+    justify-content: space-around;
+  }
+
+  .flex-column {
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .fs0 {
+    flex-shrink: 0;
+  }
+
+  .link-text-btn {
+    cursor pointer
+  }
+
+  .link-text-btn:hover {
+    color: $themeColor
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  .portal-top-bg {
+    position relative
+    width 100%
+    height calc(711px - 161px)
+    .cover-bg {
+      position absolute
+      top: -$headerTopHeight
+      left: 0
+      right: 0
+      bottom: 0
+      width 100%
+      height $bannerHeight
+      z-index -1
+      img {
+        object-fit cover
+        width 100%
+        height 100%
+      }
+    }
+    .portal-top-bg-content {
+      position absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .cover {
+      //position absolute
+      //top: -$headerTopHeight
+      //left: 0
+      //right: 0
+      //bottom: 0
+      //width 100%
+      //height $bannerHeight
+      //object-fit cover
+      //z-index -1
+      margin-right 40px
+      margin-left 40px
+      width: 300px
+      height: 300px
+      object-fit contain
+    }
+    .content {
+      height 100%;
+    }
+    .title {
+      margin-top: 80px;
+      font-size: 40px;
+      //color: transparent;
+      //-webkit-text-fill-color: white;/*文字的填充色*/
+      //-webkit-text-stroke: 1px $themeRedColor;
+      color: white;
+      //text-shadow: 1px 1px 0px #000
+
+    }
+    .desc {
+      margin-top: 40px;
+      font-size: 22px;
+      //color: transparent;
+      //-webkit-text-fill-color: white;/*文字的填充色*/
+      //-webkit-text-stroke: 0.2px $themeRedColor;
+      color: white;
+      //text-shadow: 1px 1px 0px #000
+    }
+  }
+
+  .portal-static-page-container {
+    max-width: 1000px;
+    min-width: 1000px;
+    width: 1000px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    margin-top 0
+    margin-bottom 0;
+    //border: 1px solid #ccc;
+    .static-page-title {
+      align-self: center;
+      padding: 0 20px;
+      margin-bottom 20px;
+    }
+    .static-page-line {
+      border-top: solid 1px #999;
+      display: none;
+    }
+    .static-page-content {
+      padding: 12px 15px;
+      .static-page-center {
+        text-align: center;
+        img {
+          max-width: 100%;
+        }
+      }
+      .static-text {
+        line-height: 1.75;
+        //font-size: 16px;
+        text-indent: 2em;
+        //font-family:'华文仿宋';
+      }
+    }
+  }
+
+  .mobile-box-shadow {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+
+}
